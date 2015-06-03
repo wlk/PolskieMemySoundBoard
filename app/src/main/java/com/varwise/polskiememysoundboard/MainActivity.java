@@ -30,6 +30,13 @@ public class MainActivity extends Activity {
     private boolean adsEnabled = true;
 
     public static final Integer[] rawSoundReferences = {
+            R.raw.acotutajsiewyprawia, R.raw.aleurwal,
+            R.raw.cokurwa, R.raw.cotokurwajest, R.raw.dajkamienia,
+            R.raw.gimbynieznajo, R.raw.jestemhardkorem, R.raw.jesteszwyciezca, R.raw.kopytko,
+            R.raw.krzycztrybson, R.raw.lubieplacki, R.raw.lubiszto, R.raw.matkawiezecpiesz,
+            R.raw.miotanimjakszatan, R.raw.nakurwiamwegorza, R.raw.niechginie, R.raw.nieee,
+            R.raw.nonie, R.raw.przypadekniesondze, R.raw.siemaheniu, R.raw.szczymryj,
+            R.raw.takasytuacja, R.raw.tojeamelinium, R.raw.wezsietato,
             R.raw.badum, R.raw.bazinga,
             R.raw.bye, R.raw.challengeaccepted,
             R.raw.dramatic, R.raw.fart,

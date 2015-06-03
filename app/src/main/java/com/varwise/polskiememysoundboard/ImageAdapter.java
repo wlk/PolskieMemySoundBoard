@@ -43,6 +43,13 @@ public class ImageAdapter extends BaseAdapter {
 
     // references to our images
     private Integer[] mThumbIds = {
+            R.drawable.acotutajsiewyprawia, R.drawable.aleurwal,
+            R.drawable.cokurwa, R.drawable.cotokurwajest, R.drawable.dajkamienia,
+            R.drawable.gimbynieznajo, R.drawable.jestemhardkorem, R.drawable.jesteszwyciezca, R.drawable.kopytko,
+            R.drawable.krzycztrybson, R.drawable.lubieplacki, R.drawable.lubiszto, R.drawable.matkawiezecpiesz,
+            R.drawable.miotanimjakszatan, R.drawable.nakurwiamwegorza, R.drawable.niechginie, R.drawable.nieee,
+            R.drawable.nonie, R.drawable.przypadekniesondze, R.drawable.siemaheniu, R.drawable.szczymryj,
+            R.drawable.takasytuacja, R.drawable.tojeamelinium, R.drawable.wezsietato,
             R.drawable.badum, R.drawable.bazinga,
             R.drawable.bye, R.drawable.challengeaccepted,
             R.drawable.dramatic, R.drawable.fart,

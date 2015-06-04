@@ -1,4 +1,4 @@
-package com.varwise.polskiememysoundboard;
+package com.varwise.polskiememysoundboardv2;
 
 import android.app.Activity;
 import android.media.AudioManager;
@@ -18,7 +18,6 @@ import com.google.android.gms.analytics.Tracker;
 import java.util.ArrayList;
 
 import hotchemi.android.rate.AppRate;
-
 
 public class MainActivity extends Activity {
     private SoundPool soundPool;

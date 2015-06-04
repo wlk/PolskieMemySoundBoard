@@ -1,4 +1,4 @@
-package com.varwise.polskiememysoundboard;
+package com.varwise.polskiememysoundboardv2;
 
 import android.content.Context;
 import android.util.AttributeSet;

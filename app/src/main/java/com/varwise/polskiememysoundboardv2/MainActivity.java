@@ -32,7 +32,6 @@ public class MainActivity extends Activity {
             R.raw.acotutajsiewyprawia,
             R.raw.aleurwal,
             R.raw.cokurwa,
-            R.raw.cotokurwajest,
             R.raw.dajkamienia,
             R.raw.gimbynieznajo,
             R.raw.jestemhardkorem,

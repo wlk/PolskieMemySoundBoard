@@ -46,7 +46,6 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.acotutajsiewyprawia,
             R.drawable.aleurwal,
             R.drawable.cokurwa,
-            R.drawable.cotokurwajest,
             R.drawable.dajkamienia,
             R.drawable.gimbynieznajo,
             R.drawable.jestemhardkorem,

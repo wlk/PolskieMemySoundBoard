@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-5829945009169600/3396490360" />
+        ads:adUnitId="ca-app-pub-5829945009169600/6205102365" />
 
     <GridView
         android:id="@+id/gridView"

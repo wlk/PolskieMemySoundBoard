@@ -115,17 +115,17 @@ public class MainActivity extends Activity {
         lspt.execute();
     }
 
-    private void unloadSoundPool() {
-        for (Integer soundId : soundIds) {
-            soundPool.unload(soundId);
-        }
-    }
-
     private void showInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice("38A89288B11D977328AD10DEE314DB12").addTestDevice("0457F45F2F3B38D51216287AD98A2C3D").addTestDevice("3AC2DCEE575018317C028D0C93F19AD0").addTestDevice("2D7D6AE8606296EB97A2A9B3681B90F6").build();
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("38A89288B11D977328AD10DEE314DB12")
+                .addTestDevice("0457F45F2F3B38D51216287AD98A2C3D")
+                .addTestDevice("3AC2DCEE575018317C028D0C93F19AD0")
+                .addTestDevice("2D7D6AE8606296EB97A2A9B3681B90F6")
+                .build();
 
         interstitial = new InterstitialAd(this);
-        interstitial.setAdUnitId("ca-app-pub-5829945009169600/1919757163");
+        interstitial.setAdUnitId(getResources().getString(R.string.interstitialId));
         interstitial.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {

@@ -1,4 +1,4 @@
-package com.varwise.polskiememysoundboardv2;
+package com.varwise.polskiememysoundboardv3;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
